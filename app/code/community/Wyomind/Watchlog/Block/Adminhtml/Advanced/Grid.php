@@ -66,6 +66,9 @@ class Wyomind_Watchlog_Block_Adminhtml_Advanced_Grid extends Mage_Adminhtml_Bloc
         
         return parent::_prepareColumns();
     }
+    public function getRowUrl($row) {
+        return '#';
+    }
     
 
 }

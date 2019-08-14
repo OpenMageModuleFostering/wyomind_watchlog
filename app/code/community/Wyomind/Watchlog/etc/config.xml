@@ -2,13 +2,13 @@
 <config>
     <modules>
         <Wyomind_Watchlog>
-            <version>1.0.0</version>
+            <version>1.0.1</version>
         </Wyomind_Watchlog>
     </modules>
     <default>
         <watchlogpro>
             <license>
-                <version>1.0.0</version>
+                <version>1.0.1</version>
             </license>
             <settings>
                 <history>30</history>

@@ -44,7 +44,7 @@ class Wyomind_Watchlog_Block_Adminhtml_Chart extends Mage_Adminhtml_Block_Widget
             }
             $tmp_data[$key][$entry->getType()] = $entry->getNb();
         }
-
+        ksort($tmp_data);
         foreach ($tmp_data as $date => $entry) {
             if ($pro)
                 $data[] = array("#new Date('" . $date . "')#", (int) $entry[self::SUCCESS], (int) $entry[self::FAIL], (int) $entry[self::BLOCKED]);

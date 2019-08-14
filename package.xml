@@ -1,7 +1,7 @@
 <?xml version="1.0"?>
 <package>
     <name>Wyomind_WatchLog</name>
-    <version>1.0.0</version>
+    <version>1.0.1</version>
     <stability>stable</stability>
     <license>Commercial</license>
     <channel>community</channel>
@@ -16,8 +16,8 @@
             <email>contact@wyomind.com</email>
         </author>
     </authors>
-    <date>2015-04-06</date>
-    <time>11:20:32</time>
+    <date>2015-04-17</date>
+    <time>16:15:17</time>
     <contents>
         <target name="magecommunity">
             <dir name="Wyomind">
@@ -25,14 +25,14 @@
                     <dir name="Block">
                         <dir name="Adminhtml">
                             <dir name="Advanced">
-                                <file name="Grid.php" hash="ec2be21058bb8bffb2d859fe47d83038"/>
+                                <file name="Grid.php" hash="421c91ce39065850711a22fd314ce691"/>
                             </dir>
                             <file name="Advanced.php" hash="e5e5a813508b0b72a2061297a936ce81"/>
                             <dir name="Basic">
                                 <file name="Grid.php" hash="b6a78230ba28fbcee4d307ad38e840a9"/>
                             </dir>
                             <file name="Basic.php" hash="03f04c46cdb5077733cc417c0d10bd72"/>
-                            <file name="Chart.php" hash="37d73fc3aff1a5f8c1fe42f96ce31a8b"/>
+                            <file name="Chart.php" hash="017cc9224071b175d8916611a416e9bc"/>
                             <dir name="Renderer">
                                 <file name="Ip.php" hash="5bd831a03c1c6400e4fdaf870c68fc31"/>
                                 <file name="Status.php" hash="bf96de45d6a88ae4b2d4ac3517923ad5"/>
@@ -55,7 +55,7 @@
                         </dir>
                     </dir>
                     <dir name="etc">
-                        <file name="config.xml" hash="3fc965b8995cfa6c892ae1951ca7dc2b"/>
+                        <file name="config.xml" hash="10d0f4a54626150bf80e8bfc148c0317"/>
                         <file name="system.xml" hash="401cd5b8c13f9c092f2838172da714ff"/>
                     </dir>
                     <dir name="Helper">
@@ -64,7 +64,7 @@
                     <dir name="Model">
                         <dir name="Mysql4">
                             <dir name="Watchlog">
-                                <file name="Collection.php" hash="9d50aa0ce6b7ea5c472832c89f822276"/>
+                                <file name="Collection.php" hash="5f02d8093e9c8196f0b8975248b1102f"/>
                             </dir>
                             <file name="Watchlog.php" hash="091d0b82dabc51de01108b29ac6f1f2b"/>
                         </dir>
@@ -109,7 +109,7 @@
         </target>
         <target name="mageetc">
             <dir name="modules">
-                <file name="Wyomind_Watchlog.xml" hash="45876d11d4021326439587a7a5fc3f86"/>
+                <file name="Wyomind_Watchlog.xml" hash="7555645803666036cdd714ac9e5c1e15"/>
             </dir>
         </target>
     </contents>
