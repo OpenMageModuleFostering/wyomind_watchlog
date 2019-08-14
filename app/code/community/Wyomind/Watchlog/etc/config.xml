@@ -2,13 +2,13 @@
 <config>
     <modules>
         <Wyomind_Watchlog>
-            <version>1.0.2</version>
+            <version>1.1.0</version>
         </Wyomind_Watchlog>
     </modules>
     <default>
         <watchlogpro>
             <license>
-                <version>1.0.2</version>
+                <version>1.1.0</version>
             </license>
             <settings>
                 <history>30</history>
@@ -16,6 +16,14 @@
                 <report_period>1</report_period>
                 <report_title>Watchlog report</report_title>
                 <last_report>2000-01-01 00:00:00</last_report>
+                <last_notification>2000-01-01 00:00:00</last_notification>
+                <failed_limit>0.9</failed_limit>
+                <notification_title>Watchlog security warning</notification_title>
+                <notification_description><![CDATA[Watchlog has detected an abnormaly high level of failed connection attempts to your backoffice (%s&#37;).
+<br/> Please check <a href='%s'>Watchlog panel</a> for further details.]]></notification_description>
+                <notification_details><![CDATA[Watchlog has detected an abnormaly high level of failed connection attempts to your backoffice (%s&#37;).
+<br/> <b>Upgrade Watchlog to <a href="https://www.wyomind.com/watchlog-security-enhancement-magento.html" target="_blank">Watchlog Pro</a> to protect your store!</b>]]></notification_details>
+                
             </settings>
         </watchlogpro>
     </default>

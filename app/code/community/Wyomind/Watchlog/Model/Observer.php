@@ -18,6 +18,9 @@ class Wyomind_Watchlog_Model_Observer {
             "message" => "",
             "url" => $url
         );
+        
+         Mage::helper('watchlog/data')->checkNotification();
+        
 
         $model = Mage::getModel('watchlog/watchlog')->load(0);
         $model->setData($data);

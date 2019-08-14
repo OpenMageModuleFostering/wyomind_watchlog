@@ -1,7 +1,7 @@
 <?xml version="1.0"?>
 <package>
     <name>Wyomind_WatchLog</name>
-    <version>1.0.2</version>
+    <version>1.1.0</version>
     <stability>stable</stability>
     <license>Commercial</license>
     <channel>community</channel>
@@ -16,8 +16,8 @@
             <email>contact@wyomind.com</email>
         </author>
     </authors>
-    <date>2015-04-20</date>
-    <time>12:07:51</time>
+    <date>2015-05-21</date>
+    <time>14:39:18</time>
     <contents>
         <target name="magecommunity">
             <dir name="Wyomind">
@@ -49,7 +49,7 @@
                         </dir>
                     </dir>
                     <dir name="Helper">
-                        <file name="Data.php" hash="ee75b0a1f3a8b8e02fb318c7761d1825"/>
+                        <file name="Data.php" hash="e287e9c1da2a49f76d409a51738dd947"/>
                     </dir>
                     <dir name="Model">
                         <dir name="Mysql4">
@@ -58,7 +58,7 @@
                             </dir>
                             <file name="Watchlog.php" hash="091d0b82dabc51de01108b29ac6f1f2b"/>
                         </dir>
-                        <file name="Observer.php" hash="bada2ae607210a68c3f85ca4eb9ad715"/>
+                        <file name="Observer.php" hash="b72745556b0a472b62e44a44442426c9"/>
                         <dir name="System">
                             <dir name="Config">
                                 <dir name="Source">
@@ -66,16 +66,16 @@
                                 </dir>
                             </dir>
                         </dir>
-                        <file name="Watchlog.php" hash="7b4b8e7b838ba59c1aa80e3e2e11eaf3"/>
+                        <file name="Watchlog.php" hash="6b8c24a306f22dbd6ff79a21f88e17c6"/>
                     </dir>
                     <dir name="controllers">
                         <dir name="Adminhtml">
-                            <file name="AdvancedController.php" hash="0b8800a3a1fc33e7ebb57e2b3d2ebaf6"/>
-                            <file name="BasicController.php" hash="e56ce29ba89c81e1d7aac1084af21961"/>
+                            <file name="AdvancedController.php" hash="738d4938627b38dc5c744d1d33e913ea"/>
+                            <file name="BasicController.php" hash="a8a0d4c9b9f012a825074caf49bf463e"/>
                         </dir>
                     </dir>
                     <dir name="etc">
-                        <file name="config.xml" hash="c901bc0f28c70248478378efeb4a99fb"/>
+                        <file name="config.xml" hash="b71d538e0fe1d8c059d7f8a6aea91409"/>
                         <file name="system.xml" hash="401cd5b8c13f9c092f2838172da714ff"/>
                     </dir>
                     <dir name="sql">
@@ -97,7 +97,7 @@
                             <dir name="watchlog">
                                 <file name="advanced.phtml" hash="87761a8bb08926299cbb2abae2b7f25d"/>
                                 <file name="basic.phtml" hash="5f31f62449b9dc014975f4b9c33b1fd7"/>
-                                <file name="chart.phtml" hash="d310e9a644ca2b2c7c0740a47cb6e0c4"/>
+                                <file name="chart.phtml" hash="7308920f035447e2ed2ec4787f5fd311"/>
                                 <dir name="email">
                                     <file name="report.phtml" hash="8fbbc89b71371cbd73478582c9c41be8"/>
                                 </dir>
@@ -107,10 +107,7 @@
                 </dir>
             </dir>
         </target>
-        <target name="mageetc">
-            <dir name="modules">
-                <file name="Wyomind_Watchlog.xml" hash="7555645803666036cdd714ac9e5c1e15"/>
-            </dir>
+        <target name="mageetc">@FILES3@
         </target>
     </contents>
     <compatible/>

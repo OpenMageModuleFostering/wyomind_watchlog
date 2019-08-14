@@ -3,7 +3,10 @@
 class Wyomind_Watchlog_Adminhtml_AdvancedController extends Mage_Adminhtml_Controller_Action {
 
     protected function _initAction() {
-        $this->loadLayout()->_setActiveMenu("watchlog/watchlog")->_addBreadcrumb(Mage::helper("adminhtml")->__("Watchlog Manager"), Mage::helper("adminhtml")->__("Watchlog Manager"));
+
+        Mage::helper('watchlog')->checkWarning();
+        
+        $this->loadLayout()->_setActiveMenu("watchlog/watchlog")->_addBreadcrumb(Mage::helper("adminhtml")->__("Watchlog"), Mage::helper("adminhtml")->__("Watchlog"));
         return $this;
     }
 
@@ -14,12 +17,10 @@ class Wyomind_Watchlog_Adminhtml_AdvancedController extends Mage_Adminhtml_Contr
         $this->_initAction();
         $this->renderLayout();
     }
-    
+
     public function purgeAction() {
         $log = Mage::helper('watchlog')->purgeData();
         $this->_redirect('*/*');
     }
-
-
 
 }
