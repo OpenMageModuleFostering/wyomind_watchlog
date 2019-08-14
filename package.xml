@@ -1,7 +1,7 @@
 <?xml version="1.0"?>
 <package>
     <name>Wyomind_WatchLog</name>
-    <version>1.0.1</version>
+    <version>1.0.2</version>
     <stability>stable</stability>
     <license>Commercial</license>
     <channel>community</channel>
@@ -16,8 +16,8 @@
             <email>contact@wyomind.com</email>
         </author>
     </authors>
-    <date>2015-04-17</date>
-    <time>16:15:17</time>
+    <date>2015-04-20</date>
+    <time>12:07:51</time>
     <contents>
         <target name="magecommunity">
             <dir name="Wyomind">
@@ -29,7 +29,7 @@
                             </dir>
                             <file name="Advanced.php" hash="e5e5a813508b0b72a2061297a936ce81"/>
                             <dir name="Basic">
-                                <file name="Grid.php" hash="b6a78230ba28fbcee4d307ad38e840a9"/>
+                                <file name="Grid.php" hash="39afb43c1b6ed967b6a018bdb463a697"/>
                             </dir>
                             <file name="Basic.php" hash="03f04c46cdb5077733cc417c0d10bd72"/>
                             <file name="Chart.php" hash="017cc9224071b175d8916611a416e9bc"/>
@@ -48,16 +48,6 @@
                             </dir>
                         </dir>
                     </dir>
-                    <dir name="controllers">
-                        <dir name="Adminhtml">
-                            <file name="AdvancedController.php" hash="0b8800a3a1fc33e7ebb57e2b3d2ebaf6"/>
-                            <file name="BasicController.php" hash="e56ce29ba89c81e1d7aac1084af21961"/>
-                        </dir>
-                    </dir>
-                    <dir name="etc">
-                        <file name="config.xml" hash="10d0f4a54626150bf80e8bfc148c0317"/>
-                        <file name="system.xml" hash="401cd5b8c13f9c092f2838172da714ff"/>
-                    </dir>
                     <dir name="Helper">
                         <file name="Data.php" hash="ee75b0a1f3a8b8e02fb318c7761d1825"/>
                     </dir>
@@ -68,7 +58,7 @@
                             </dir>
                             <file name="Watchlog.php" hash="091d0b82dabc51de01108b29ac6f1f2b"/>
                         </dir>
-                        <file name="Observer.php" hash="c81d741df5284b0412531d8d5ebfefcd"/>
+                        <file name="Observer.php" hash="bada2ae607210a68c3f85ca4eb9ad715"/>
                         <dir name="System">
                             <dir name="Config">
                                 <dir name="Source">
@@ -77,6 +67,16 @@
                             </dir>
                         </dir>
                         <file name="Watchlog.php" hash="7b4b8e7b838ba59c1aa80e3e2e11eaf3"/>
+                    </dir>
+                    <dir name="controllers">
+                        <dir name="Adminhtml">
+                            <file name="AdvancedController.php" hash="0b8800a3a1fc33e7ebb57e2b3d2ebaf6"/>
+                            <file name="BasicController.php" hash="e56ce29ba89c81e1d7aac1084af21961"/>
+                        </dir>
+                    </dir>
+                    <dir name="etc">
+                        <file name="config.xml" hash="c901bc0f28c70248478378efeb4a99fb"/>
+                        <file name="system.xml" hash="401cd5b8c13f9c092f2838172da714ff"/>
                     </dir>
                     <dir name="sql">
                         <dir name="watchlog_setup">

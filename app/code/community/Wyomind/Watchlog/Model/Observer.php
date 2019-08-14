@@ -78,7 +78,8 @@ class Wyomind_Watchlog_Model_Observer {
 
             $log = array();
 
-            $update = Mage::getStoreConfig("watchlogpro/settings/last_report");
+           $update = Mage::getModel('core/config_data')->getCollection()->addFieldToFilter("path",array("eq" => "watchlogpro/settings/last_report"))->getFirstItem()->getValue();
+        
             $cronExpr = json_decode(Mage::getStoreConfig("watchlogpro/settings/cron"));
             $cron['curent']['localDate'] = Mage::getSingleton('core/date')->date('l Y-m-d H:i:s');
             $cron['curent']['gmtDate'] = Mage::getSingleton('core/date')->gmtDate('l Y-m-d H:i:s');

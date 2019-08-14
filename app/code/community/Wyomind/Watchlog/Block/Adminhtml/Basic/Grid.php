@@ -46,9 +46,9 @@ class Wyomind_Watchlog_Block_Adminhtml_Basic_Grid extends Mage_Adminhtml_Block_W
             'header' => Mage::helper('watchlog')->__('Url'),
             'index' => 'url',
         ));
-        $this->addColumn('user_agent', array(
+        $this->addColumn('type', array(
             'header' => Mage::helper('watchlog')->__('Status'),
-            'index' => 'user_agent',
+            'index' => 'type',
             'renderer' => 'Wyomind_Watchlog_Block_Adminhtml_Renderer_Status',
             'width' => '100px',
             'filter' => false,
