@@ -1,16 +1,19 @@
 {
-    "name": "OpenMageModuleFostering/Wyomind_WatchLog",
+    "name": "OpenMageModuleFostering\/Wyomind_WatchLog",
     "type": "magento-module",
     "license": "Commercial",
     "homepage": "",
     "description": "Wyomind Watchlog extension",
     "authors": [
-    {
-        "name": "Wyomind",
-        "email": "contact@wyomind.com"
-    }
-],
+        {
+            "name": "Wyomind",
+            "email": "contact@wyomind.com"
+        }
+    ],
     "suggest": {
-        "magento-hackathon/magento-composer-installer": "*"
-    }
+        "magento-hackathon\/magento-composer-installer": "*"
+    },
+    "keywords": [
+        "openmage-module"
+    ]
 }
